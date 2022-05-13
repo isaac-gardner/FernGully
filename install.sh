@@ -14,4 +14,6 @@ cd data
 tar -zxvf data/FernGullyExam.tar.gz
 cd ..
 
+chown 10001 data/FernGully*
+
 docker-compose up -d
