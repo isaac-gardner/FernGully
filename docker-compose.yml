@@ -12,8 +12,6 @@ services:
        - attach_dbs=[{'dbName':'FernGully', 'dbFiles':['/data/FernGullyExam.mdf','/data/FernGullyExam_log.ldf']}] 
      volumes: 
        - ./data:/data 
-       - ./attach.sh:/attach.sh 
-       - ./attach.sql:/attach.sql 
      #command: 
        #- /attach.sh 
    sqlpad: 
