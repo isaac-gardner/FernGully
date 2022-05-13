@@ -8,7 +8,7 @@ sudo apt-get -y install docker-ce docker-ce-cli containerd.io docker-compose
 curl -o docker-compose.yml https://raw.githubusercontent.com/isaac-gardner/FernGully/main/docker-compose.yml
 
 mkdir data
-curl -o data/FernGullyExam.tar.gz https://raw.githubusercontent.com/isaac-gardner/FernGully/main/FernGullyExam.tar.gz
+curl -Lo data/FernGullyExam.tar.gz https://github.com/isaac-gardner/FernGully/raw/main/FernGully.tar.gz
 tar -zxvf data/FernGullyExam.tar.gz
 
 docker-compose up -d
