@@ -9,6 +9,9 @@ curl -o docker-compose.yml https://raw.githubusercontent.com/isaac-gardner/FernG
 
 mkdir data
 curl -Lo data/FernGullyExam.tar.gz https://github.com/isaac-gardner/FernGully/raw/main/FernGully.tar.gz
+
+cd data
 tar -zxvf data/FernGullyExam.tar.gz
+cd ..
 
 docker-compose up -d
