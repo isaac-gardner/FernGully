@@ -11,7 +11,7 @@ mkdir data
 curl -Lo data/FernGullyExam.tar.gz https://github.com/isaac-gardner/FernGully/raw/main/FernGully.tar.gz
 
 cd data
-tar -zxvf data/FernGullyExam.tar.gz
+tar -zxvf FernGullyExam.tar.gz
 cd ..
 
 chown 10001 data/FernGully*
